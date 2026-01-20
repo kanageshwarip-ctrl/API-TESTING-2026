@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "b6794e4c-00d2-4c4f-b84e-ebf6e584694b",
+		"name": "GIT TRY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "51066881",
+		"_collection_link": "https://lively-robot-633768.postman.co/workspace/My-Workspace~6d826c5a-df73-4718-83b1-4a76250ecc6d/collection/51066881-b6794e4c-00d2-4c4f-b84e-ebf6e584694b?action=share&source=collection_link&creator=51066881"
+	},
+	"item": [
+		{
+			"name": "Get a single product Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fakestoreapi.com/products/?limit=1",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"products",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl -X GET 'https://fakestoreapi.com/products/1'"
+			},
+			"response": []
+		}
+	]
+}
